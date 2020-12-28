@@ -1,0 +1,30 @@
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+
+  .header & {
+    display: flex;
+    align-items: center;
+  }
+
+  .hero & {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    height: 600px;
+
+    padding-top: 200px;
+    padding-right: 252px;
+    padding-left: 252px;
+    padding-bottom: 200px;
+  }
+
+  .footer & {
+    display: flex;
+    align-items: baseline;
+
+    padding: 60px 15px;
+  }
+}
